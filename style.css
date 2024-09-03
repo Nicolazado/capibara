@@ -98,7 +98,7 @@ main > div > button {
     background-color: #FFDBB5;
     color: #6C4E31;
     margin: 10px;
-    width: 50%;
+    width: 70%;
     height: 60px;
     font-size: 30px;
     font-weight: bold;
@@ -134,13 +134,18 @@ main > div > button:hover {
     nav a {
         padding: 10px;
     }
+    main {
+        flex-direction: column;
+    }
 
     main iframe {
         width: 100%;
-        height: auto;
+        height: 200px;
     }
 }
-
+main > div > button {
+    width: 100%;
+}
 @media (max-width: 480px) {
     main h1 {
         font-size: 1.5em;
